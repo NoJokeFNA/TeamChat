@@ -91,7 +91,7 @@ public class TeamChatCommand extends Command {
         } else if (proxiedPlayer.hasPermission("server.command.teamchat.srstuff")) {
             return "§cSrStuff §8» §c";
         } else if (proxiedPlayer.hasPermission("server.command.teamchat.stuff")) {
-            return "§cStuff §8» §c";
+            return "§cStaff §8» §c";
         } else if (proxiedPlayer.hasPermission("server.command.teamchat.builder")) {
             return "§aBuilder §8» §a";
         } else if (proxiedPlayer.hasPermission("server.command.teamchat.supporter")) {
